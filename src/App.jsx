@@ -28,7 +28,7 @@ class App extends React.Component {
           <h1 className="heading text-2xl flex">
             {this.state.advice}
           </h1>
-          <button className="relative flex justify-center items-center cursor-pointer m-2 border-2 rounded-3xl border-blue-500  text-blue-600" onclick ={this.fetchAdvice}>
+          <button className="relative flex justify-center items-center cursor-pointer m-2 border-2 rounded-3xl border-blue-500  text-blue-600" onClick={this.fetchAdvice}>
             <span className="p-1">
               GIVE ME ADVICE !
             </span>
